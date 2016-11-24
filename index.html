@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style type="text/css">
+		#counter-text{
+			text-align: center;
+			margin-top: 5%;
+		}
+		.pg-pic{
+			width: 50%;
+			max-height: 100%; 
+		}
+		.pg-header{
+			margin-top: 10%;
+		}
+		#point-guards {
+    		text-align:center;
+		}
+	</style>
+	<title>Point Guard Clicker</title>
+</head>
+<body>
+	<div class="container-fluid">
+		<form action="" id="point-guards"></form>
+		<section class="row">
+			<article id="pg-wrapper" class="col-sm-12" style="text-align: center;">
+				<header class="pg-header"><h2 id="pg-name">This point guard's name is: <span id="pg-name-text">Point Guard</span></h2></header>
+				<div class="pg-image-wrapper">
+					<img id="pg-pic" class="pg-pic" src="" alt="pic of pg">
+				</div> 
+			</article>
+		</section>
+		<p id="counter-text">Number of clicks:<span id="click-counter">0</span></p>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="app.js"></script>
+	<input type="radio" name="" id="" class="pg-button">
+</body>
+</html>
